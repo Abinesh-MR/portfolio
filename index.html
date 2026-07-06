@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abinesh R | Portfolio</title>
+    
+    <link rel="stylesheet" href="portfolio-style.css">
+    
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+<!--
+
+TemplateMo 592 glossy touch
+
+https://templatemo.com/tm-592-glossy-touch
+
+-->
+
+</head>
+<body>
+    <div class="bg-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
+    <!-- SINGLE NAVIGATION HEADER -->
+    <header>
+        <div class="container">
+            <nav class="glass">
+                <div class="logo" onclick="showPage('home')">
+                    <div class="logo-icon">
+                       
+                    </div>
+                    <span>Abinesh R</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#" onclick="showPage('home')" class="active">Home</a>
+                    <a href="#" onclick="showPage('about')">About</a>
+                    <a href="#" onclick="showPage('skills')">Skills</a>
+                    <a href="#" onclick="showPage('services')">Projects</a>
+                    <a href="#" onclick="showPage('experience')">Experiences</a>
+                    <a href="#" onclick="showPage('contact')">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME PAGE -->
+    <div id="home" class="page ">
+        <div class="container">
+            <div class="content-wrapper">
+                <section class="hero glass">
+                    <!-- <div class="hero-image">
+                        <img src="images/templatemo-futuristic-girl.jpg" alt="Modern Technology Interaction" />
+                    </div> -->
+                    <div class="hero-content">
+                        <h1>Hi, I'm Abinesh R</h1>
+                        <h3>Senior Backend Engineer</h3>
+                        <p>Passionate about building high-performance backend applications with Laravel, designing secure RESTful APIs, and solving complex engineering challenges through clean, scalable code.</p>
+                        <a href="./files/abinesh_resume.pdf" class="cta-button" download="abinesh_resume" target="_target"> Download CV</a>
+                        <a href="" class="cta-button" onclick="showPage('contact')">Get In Touch</a>
+                    </div>
+                </section>
+
+                <!-- <section class="features">
+                    <div class="feature-card glass">
+                        <div class="feature-icon">✨</div>
+                        <h3>Modern Design</h3>
+                        <p>Beautiful glass morphism effects with backdrop blur and translucent elements that create depth and visual hierarchy.</p>
+                    </div>
+                    
+                    <div class="feature-card glass">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Fast Performance</h3>
+                        <p>Optimized animations and effects that maintain smooth 60fps performance across all modern browsers and devices.</p>
+                    </div>
+                    
+                    <div class="feature-card glass">
+                        <div class="feature-icon">📱</div>
+                        <h3>Responsive</h3>
+                        <p>Fully responsive design that adapts beautifully to any screen size, from mobile phones to desktop displays.</p>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Interactive UI</h3>
+                        <p>Engaging hover effects, smooth transitions, and micro-animations that create delightful user experiences.</p>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Secure & Safe</h3>
+                        <p>Built with modern security standards and best practices to ensure your data and user privacy are protected.</p>
+                    </div>
+
+                    <div class="feature-card glass">
+                        <div class="feature-icon">🚀</div>
+                        <h3>Easy Integration</h3>
+                        <p>Simple to implement and customize for any project with clean, well-documented code and flexible components.</p>
+                    </div>
+                </section> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- ABOUT PAGE -->
+    <div id="about" class="page">
+        <div class="container block-section">
+            <!-- <div>
+                <h1 class="contact-title">About</h1>
+            </div> -->
+
+            <div class="content-wrapper">
+                <section class="about-content">
+                    <div class="about-text glass">
+                        <h2>About Our Vision</h2>
+                        <p>Backend Engineer with 4.9 years of experience building and maintaining scalable Laravel applications, RESTful APIs, and high-performance MySQL databases. Proven track record of optimizing application performance, reducing query execution time, and delivering reliable production releases. Experienced in API development, database optimization, authentication, background job processing, and collaborating with cross-functional Agile teams.</p>
+                    </div>
+                    <div class="stats">
+                        <div class="stat-card glass">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <!-- <div class="stat-card glass">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div> -->
+                        <div class="stat-card glass">
+                            <div class="stat-number">4.9</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <!-- <div class="stat-card glass">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Support Available</div>
+                        </div> -->
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div id="skills" class="page">
+        <div class="container block-section">
+
+            <div class="section-title">
+                <h1 class="contact-title">Skills & Technologies</h1>
+                <p> A list of my favorite tools and technologies that I use on a regular basis. </p>
+            </div>
+           
+            <div class="content-wrapper">
+                
+                <section >
+
+                    <!-- Filter Buttons -->
+                    <!-- <div class="filters">
+
+                        <button class="active">
+                            ⚡ All
+                        </button>
+
+                        <button>
+                            💻 Frontend
+                        </button>
+                        <button>
+                            💻 Backend
+                        </button>
+
+                        <button>
+                            🗄 Database
+                        </button>
+
+                        <button>
+                            🚀 Tools
+                        </button>
+
+                    </div> -->
+
+                    <!-- Cards -->
+                    <div class="tech-grid">
+
+                        <div class="tech-card">
+                            <div class="icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" />          
+                            </div>
+
+                            <div class="content">
+                                <h3>PHP</h3>
+                                <p>Backend Development</p>
+                            </div>
+                        </div>
+
+                        <div class="tech-card">
+                            <div class="icon">
+                                
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" />
+          
+                            </div>
+
+                            <div class="content">
+                                <h3>Laravel</h3>
+                                <p>REST API, MVC Framework</p>
+                            </div>
+                        </div>
+
+                        <div class="tech-card"> 
+                            <div class="icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" />
+                            </div>
+
+                            <div class="content">
+                                <h3>MySQL</h3>
+                                <p>Relational Database</p>
+                            </div>
+                        </div>
+
+                        <!-- <div class="tech-card"> 
+                            <div class="icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
+                            </div>
+
+                            <div class="content">
+                                <h3>MongoDB</h3>
+                                <p>NoSQL Database</p>
+                            </div>
+                        </div> -->
+
+                        
+                        <!-- <div class="tech-card">
+                            <div class="icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+                            </div>
+
+                            <div class="content">
+                                <h3>ReactJS</h3>
+                                <p>Component-Based UI Library</p>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-card">
+                            <div class="icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />         
+                            </div>
+
+                            <div class="content">
+                                <h3>NodeJS</h3>
+                                <p>JavaScript Runtime Environment</p>
+                            </div>
+                        </div> -->
+                        
+                        <div class="tech-card">
+                            <div class="icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+                            </div>
+
+                            <div class="content">
+                                <h3>JavaScript</h3>
+                                <p>Interactive Web Development</p>
+                            </div>
+                        </div>
+                        
+                        <!-- <div class="tech-card">
+                            <div class="icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/filamentphp/filamentphp-original.svg" />                        
+                            </div>
+
+                            <div class="content">
+                                <h3>FilamentPHP</h3>
+                                <p>Laravel Admin Panel</p>
+                            </div>
+                        </div> -->
+                        
+                        <div class="tech-card">
+                            <div class="icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
+                            </div>
+
+                            <div class="content">
+                                <h3>Docker</h3>
+                                <p>Containerization</p>
+                            </div>
+                        </div>
+
+                        <div class="tech-card">
+                            <div class="icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original.svg" />
+                            </div>
+
+                            <div class="content">
+                                <h3>GitLab</h3>
+                                <p>Version Control</p>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="tech-card">
+                            <div class="icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+                            </div>
+
+                            <div class="content">
+                                <h3>HTML</h3>
+                                <p>Semantic Web Structure</p>
+                            </div>
+                        </div>
+                        <div class="tech-card">
+                            <div class="icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+                            </div>
+
+                            <div class="content">
+                                <h3>CSS</h3>
+                                <p>Responsive UI Styling</p>
+                            </div>
+                        </div>
+                        
+                        <div class="tech-card">
+                            <div class="icon">
+                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+                            </div>
+
+                            <div class="content">
+                                <h3>Bootstrap</h3>
+                                <p>Responsive CSS Framework</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Experiences -->
+    <div id="experience" class="page">
+        <div class="container block-section">
+            <div>
+                <h1 class="contact-title">Experienced</h1>
+            </div>
+            <div class="content-wrapper">
+                <!-- <section class="hero glass">
+                    <h1>Experienced</h1>
+                    <p>Comprehensive design and development solutions tailored to your needs</p> 
+                </section> -->
+
+                <section class="exp-grid">
+                    <div class="service-card glass">
+                        <div class="">
+                            <h3>Software Developer</h3>
+                            <p>Covalense Digital Solutions | December 2025 - February 2026</p>
+                        </div>
+                        
+                        <ul class="exp-features">
+                            <li>Built backend features for Khedmah, a food delivery platform, including order management, driver assignment, and real-time notifications, using Laravel, MySQL, and REST APIs.</li>
+                            <li>Diagnosed and fixed 12+ production issues by analyzing logs, debugging APIs, and optimizing SQL queries, reducing recurring production incidents by 45%.</li>
+                            <li>Strengthened API reliability by standardizing API contract reviews during peer code reviews, reducing post-release defects by 35% and improving collaboration between backend and frontend teams.</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card glass exp-end-bloack">
+                        <div class="">
+                            <h3>Senior Web Developer</h3>
+                            <p>Netaxis IT Solutions | November 2020 - June 2025</p>
+
+                        </div>
+                        <ul class="exp-features">
+                            <li>Developed and maintained backend systems for 5+ Laravel and AngularJS applications, supporting 10K+ monthly active users while working closely with the infrastructure team to ensure 99.5%+ application availability.</li>
+                            <li>Designed and developed 15+ RESTful APIs for web and mobile applications, standardizing API responses and error handling, which improved response time by 30% and reduced frontend integration issues.</li>
+                            <li>Improved application performance by replacing synchronous tasks with Laravel Horizon queues for email notifications, PDF generation, and third-party API integrations, reducing peak server load by 40% and response latency by 25%. </li>
+                            <li>Optimized 20+ slow MySQL queries on tables with over 1 million records using EXPLAIN, slow-query logs, and indexing strategies, improving query performance by 25% without database schema changes.</li>
+                            <li>Implemented OAuth2 and JWT authentication for 3 multi-tenant applications, including token expiration, refresh tokens, and role-based access control, reducing authentication-related support issues by 30%.</li>
+                            <li>Led a team of 6 developers by participating in sprint planning, code reviews, and mentoring junior engineers on SOLID principles and Laravel best practices, improving overall code quality.</li>
+                            <li>Standardized GitLab branching strategies and merge request templates, reducing code merge conflicts by 40% and improving release turnaround time by 20%.</li>
+                        </ul>
+                    </div>
+
+                   
+
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="services" class="page">
+        <div class="container block-section">
+            <div>
+                <h1 class="contact-title">Worked Projects</h1>
+            </div>
+            <div class="content-wrapper">
+                <!-- <section class="hero glass">
+                    <h1>Worked Projects</h1>
+                     <p>Comprehensive design and development solutions tailored to your needs</p> 
+                </section> -->
+
+                <section class="services-grid">
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <h3>Khedmah Food Delivery App</h3>
+                        </div>
+                        <p>Built backend features for this App, a food delivery platform, including order management, driver assignment, and real-time notifications, using Laravel, MySQL, and REST APIs.</p>
+                        
+                        <div class="tech-stack">
+                            <span class="glass_domain domain_view">PHP</span>
+                            <span class="glass_domain domain_view">Laravel</span>
+                            <span class="glass_domain domain_view">MySQL</span>
+                        </div>
+                    </div>
+
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <h3>NamePage</h3>
+                        </div>
+                        <p>Built a global name pronunciation platform with Azure Text-to-Speech integration and gamification features, including IQ points, badges, and certificates, supporting 50K+ registered users and increasing repeat visits by 28%.</p>
+                        
+                        <div class="tech-stack">
+                            <span class="glass_domain domain_view">PHP</span>
+                            <span class="glass_domain domain_view">Laravel</span>
+                            <span class="glass_domain domain_view">MySQL</span>
+                            <span class="glass_domain domain_view">MinIO</span>
+                            <span class="glass_domain domain_view">Azure Text-to-Speech API</span>
+                        </div>
+
+                    </div>
+
+                    <div class="service-card glass">
+                        <div class="service-header">
+                            <h3>TrackMyBills & TrackMyDomains</h3>
+                        </div>
+                        <p>Developed domain portfolio and billing management applications with automated renewal reminders, Laravel scheduled jobs, and role-based approval workflows, eliminating manual tracking and improving billing accuracy by 45%.</p>
+                        
+                        <div class="tech-stack">
+                            <span class="glass_domain domain_view">PHP</span>
+                            <span class="glass_domain domain_view">Laravel</span>
+                            <span class="glass_domain domain_view">MySQL</span>
+                            <span class="glass_domain domain_view">MinIO</span>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <!-- CONTACT PAGE -->
+    <div id="contact" class="page">
+        <div class="container block-section">
+            <div>
+                <h1 class="contact-title">Get In Touch</h1>
+            </div>
+            <div class="content-wrapper">
+                <section class="contact-grid">
+                    <div class="contact-form glass">
+                        <h2>Let's Connect</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="What's this about?">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" placeholder="Tell us about your project..." required></textarea>
+                            </div>
+                            <button type="submit" class="cta-button cta-submit-btn">Send Message</button>
+                        </form>
+                    </div>
+
+                    <div class="contact-info glass">
+                        <h2>Contact Information</h2>
+                        
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📧</div>
+                            <div class="contact-item-text">
+                                <h4>Email</h4>
+                                <p>abineshr312@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📞</div>
+                            <div class="contact-item-text">
+                                <h4>Phone</h4>
+                                <p>+91 9629922746</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📍</div>
+                            <div class="contact-item-text">
+                                <h4>Address</h4>
+                                <p>TamilNadu, India.</p>
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </section>
+
+                <!-- <section class="contact-map-section">
+                    <div class="contact-map glass">
+                        <h2>Find Us</h2>
+                        <div class="map-container">
+                            <div class="map-placeholder">
+                                <div class="map-placeholder-icon">🗺️</div>
+                                <p><strong>Interactive Map Area</strong></p>
+                                <p>123 Design Street</p>
+                                <p>Creative District, CD 12345</p>
+                                <p style="margin-top: 15px; font-size: 12px; opacity: 0.7;">
+                                    Map integration can be added with<br>
+                                    Google Maps, OpenStreetMap, or Mapbox
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- SINGLE FOOTER -->
+    <div id="footer">
+        <div class="container">
+            <footer class="glass">
+                <div class="footer-content">
+                    <!-- <div class="footer-links">
+                        <a href="#" onclick="showPage('about')">About Us</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">XML Sitemap</a>
+                        <a href="#" onclick="showPage('contact')">Contact</a>
+                    </div> -->
+                    <div class="copyright">
+                        &copy; 2026 Abinesh R. All rights reserved.
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+<script src="portfolio-script.js"></script>
+</body>
+</html>
